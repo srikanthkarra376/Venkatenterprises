@@ -1,0 +1,119 @@
+.container #hero { 
+  text-align: center;
+  font-size:2em;
+  font-weight:500;
+  z-index:1;
+  padding-top:150px;
+}
+.container #hero p {
+  color:white;
+  font-size:1.5em;
+  z-index:100;
+}
+nav {
+  transition: 1s;
+  
+  background-color:#ccc;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+nav ul li {
+  margin-left:30px;
+}
+nav ul:hover {
+  transition: 0.5s;
+  font-size:16px;
+}
+nav ul li.active {
+ border-bottom:2px solid red;
+}
+#showcase {
+  top:0;
+ width:100%;
+  height:100vh;
+  background:linear-gradient( rgba(0, 0, 0, 0.692) 100%, rgba(0, 0, 0, 0.747)100%),url('../images/mechanic.jpeg') ;
+ background-size: cover;
+  background-position: center;
+  position: absolute;
+  z-index: -1;
+  opacity:0.9;
+  transition: 2s;
+}
+#grid-images  {
+  position: absolute;
+  margin-top:150px ;
+  padding:50px;
+  margin-left:30px;
+}
+#grid-images .container .row .col-xs-12 {
+  padding:20px;
+}
+#grid-images .container .row .col-xs-12 a img{
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+#grid-images .container .row .col-xs-12 a img:hover {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  width:105%;
+  transition: 0.5s ease-in-out;
+  position: absolute;
+  z-index: 1;
+}
+
+
+
+/* #grid-images  {
+  position: relative;
+  top:300px;
+  margin-right: 10px;
+}
+
+
+#grid-images .container .row div  {
+
+  margin-bottom: 40px;
+
+
+}
+#grid-images div a img {
+  opacity:0.8;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+#grid-images div a img:hover {
+  transition: 0.5s;
+  position: absolute;
+   width:105%;
+   opacity: 1;
+  
+  
+} */
+@media screen and (max-width:588px){
+div#hero p {
+  line-height: 1.5;
+     padding-top:0;
+    color:white;
+    font-size:20px;
+    z-index:10000;
+    font-weight: 200;
+  }
+  div#hero p a {
+    padding-top:0;
+  }
+ nav.navbar-expand-lg a.navbar-brand,nav button.navbar-toggler .navbar-toggler-icon{
+    font-size:2em;
+    font-weight:800;
+    
+  }
+  #showcase {
+    top:0;
+   width:100%;
+    height:900px;
+     background:linear-gradient( rgba(0, 0, 0, 0.692) 100%, rgba(0, 0, 0, 0.747)100%),url('../images/mechanic.jpeg') ;
+    
+  background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+    opacity:0.9;
+  
+  }
+}
+

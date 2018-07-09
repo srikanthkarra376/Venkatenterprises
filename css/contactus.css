@@ -1,0 +1,44 @@
+/*nav- bar styling*/
+nav {
+  
+  background-color:#ccc;
+}
+nav ul li {
+  margin-left:30px;
+}
+
+nav ul li.active {
+  border-bottom:2px solid red;
+
+}
+#contactus  {
+margin-top:80px;
+}
+#contactus .container h4 {
+  color:darkcyan;
+  border-bottom: 2px dotted gray;
+  padding-bottom: 20px;
+}
+address h6 {
+  color:red;
+
+}
+#from1 {
+  background-color: #F8F8F8;
+  padding-bottom:60px;
+}
+#from1 h4{
+  color:darkcyan;
+
+  padding:40px 40px 40px 0;;
+
+}
+
+footer {
+  background-color: black;
+  color:white;
+  height:100px;
+}
+footer div{
+padding-top:50px;
+}

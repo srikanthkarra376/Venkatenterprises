@@ -1,0 +1,47 @@
+/*navbar*/
+
+.container #hero { 
+  text-align: center;
+  font-size:2em;
+  font-weight:500;
+  z-index:1;
+  padding-top:150px;
+}
+.container #hero p {
+  color:white;
+  font-size:1.5em;
+  z-index:10000;
+}
+nav {
+  
+  background-color:#ccc;
+}
+nav ul li {
+  margin-left:30px;
+}
+
+nav ul li.active {
+  border-bottom:2px solid red;
+
+}
+#icons div.col-xs-12 i {
+  font-size:48px;
+  color:green;
+  
+}
+/* #icons div.col-xs-12 p {
+  text-align:center;
+} */
+
+@media screen and (max-width:588px){
+  .container #hero p {
+    color:white;
+    font-size:1.0em;
+    z-index:10000;
+  }
+ nav.navbar-expand-lg a.navbar-brand,nav button.navbar-toggler .navbar-toggler-icon{
+    font-size:2em;
+    font-weight:800;
+    
+  }
+}
