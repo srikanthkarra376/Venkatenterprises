@@ -1,17 +1,21 @@
+
 .container #hero { 
   text-align: center;
   font-size:2em;
   font-weight:500;
   z-index:1;
   padding-top:150px;
+  height:100vh;
 }
 .container #hero p {
   color:white;
   font-size:1.5em;
   z-index:100;
+
 }
 nav {
   transition: 1s;
+position: sticky;
   
   background-color:#ccc;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -38,12 +42,29 @@ nav ul li.active {
   opacity:0.9;
   transition: 2s;
 }
-#grid-images  {
+
+#showcase1 {
+ width:100%;
+height:1000px;
+  background:linear-gradient( rgba(0, 0, 0, 0.692) 100%, rgba(0, 0, 0, 0.747)100%),url('../images/panalu.jpg') ;
+ background-size: cover;
+ background-repeat: no-repeat;
+  background-position: center;
   position: absolute;
-  margin-top:150px ;
-  padding:50px;
-  margin-left:30px;
+  z-index: -1;
+  opacity:0.9;
+  transition: 2s;
 }
+
+
+#grid-images {
+  padding:100px;
+ }
+ #grid-images .container h1 {
+   color:white;
+   text-align:center;
+   margin-top:-50px;
+ }
 #grid-images .container .row .col-xs-12 {
   padding:20px;
 }
@@ -85,10 +106,18 @@ nav ul li.active {
   
   
 } */
+
+#extrainfo {
+  margin-top:50px;
+}
+#extrainfo p {
+padding:100px;
+color:#404040;
+}
 @media screen and (max-width:588px){
 div#hero p {
   line-height: 1.5;
-     padding-top:0;
+   padding-top:0;
     color:white;
     font-size:20px;
     z-index:10000;

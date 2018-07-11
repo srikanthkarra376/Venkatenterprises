@@ -1,15 +1,20 @@
-/*nav- bar styling*/
+
 nav {
+  transition: 1s;
+position: sticky;
   
   background-color:#ccc;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav ul li {
   margin-left:30px;
 }
-
+nav ul:hover {
+  transition: 0.5s;
+  font-size:16px;
+}
 nav ul li.active {
-  border-bottom:2px solid red;
-
+ border-bottom:2px solid red;
 }
 #contactus  {
 margin-top:80px;
