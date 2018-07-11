@@ -18,25 +18,28 @@ nav ul li.active {
 #contactus  {
 margin-top:80px;
 }
-#contactus .container h4 {
+#contactus .container h3 {
   color:darkcyan;
   border-bottom: 2px dotted gray;
   padding-bottom: 20px;
 }
 address{
-  font-size:1.8em;
+  font-size:1.5em;
+  padding-top:20px;
+  color: #666666;
 }
 address span ,div address:nth-child(4) span {
   font-size:1em;
 }
-address h6 {
+address h4 {
+  margin-bottom:25px;
   color:red;
 
 }
 #from1 {
   background-color: #F8F8F8;
   padding-bottom:60px;
-  font-size:1.8em;
+  font-size:1.5em;
 }
 #from1 h4{
   color:darkcyan;

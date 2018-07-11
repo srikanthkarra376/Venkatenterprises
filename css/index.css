@@ -62,10 +62,12 @@ height:100vh;
 #grid-images {
   padding:100px;
  }
- #grid-images .container h1 {
-   color: rgb(84, 100, 98);
+ #grid-images .container p {
    text-align:center;
-   margin-top:-50px;
+  font-weight:300; 
+  font-size:2.5em;
+  margin-bottom:40px;
+  color: rgb(84, 100, 98) ;
  }
 #grid-images .container .row .col-xs-12 {
   padding:20px;
@@ -115,10 +117,10 @@ padding:20px;
 
 }
 #grid-images .container h1 {
-  font-size:1.6em;
+  font-size:2em;
 }
 #grid-images {
-  padding-top:100px;
+  padding:10px;
  }
 #grid-images .container .row .col-xs-12 a img {
   width:100%;
@@ -135,19 +137,18 @@ padding:20px;
   margin-bottom:40px;
   color: rgb(84, 100, 98) ;
   }
-  #extrainfo p:nth-child(2) {
-    font-size:1.5em;
-    color:#666666;
-   }
+  
    #extrainfo p:nth-child(2) {
-    font-size:1em;
-    color:#666666;
-    padding:20px;
-    
-      }
+
+    font-weight:300; 
+    font-size:1.8em;
+    margin-bottom:40px;
+    color: rgb(84, 100, 98) ;
+    }
+}
 
  
-}
+
 @media screen and (max-width:500px){
   .container #hero { 
     text-align: center;
@@ -163,8 +164,12 @@ padding:20px;
 
      height:auto;
  }
+ #grid-images {
+   margin-top:50px;
+  padding:10px;
+ }
   #grid-images .container h1 {
-    font-size:1em;
+    font-size:2em;
   }
   #extrainfo {
     position: relative;
@@ -172,11 +177,18 @@ padding:20px;
   }
   #extrainfo p:nth-child(1) {
 
-    font-weight:100; 
-    font-size:1.5em;
+    font-weight:300; 
+    font-size:2em;
     margin-bottom:40px;
     color: rgb(84, 100, 98) ;
     }
+    #extrainfo p:nth-child(2) {
+
+      font-weight:300; 
+      font-size:1.3em;
+      margin-bottom:40px;
+      color: rgb(84, 100, 98) ;
+      }
 }
 
 /*footer*/
