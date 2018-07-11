@@ -44,10 +44,12 @@ nav ul li.active {
 }
 
 #showcase1 {
+padding:50px;
  width:100%;
-height:1000px;
+height:100vh;
   background:linear-gradient( rgba(0, 0, 0, 0.692) 100%, rgba(0, 0, 0, 0.747)100%),url('../images/panalu.jpg') ;
  background-size: cover;
+ background-position:center;
  background-repeat: no-repeat;
   background-position: center;
   position: absolute;
@@ -61,7 +63,7 @@ height:1000px;
   padding:100px;
  }
  #grid-images .container h1 {
-   color:white;
+   color: rgb(84, 100, 98);
    text-align:center;
    margin-top:-50px;
  }
@@ -69,80 +71,122 @@ height:1000px;
   padding:20px;
 }
 #grid-images .container .row .col-xs-12 a img{
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-}
-#grid-images .container .row .col-xs-12 a img:hover {
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-  width:105%;
-  transition: 0.5s ease-in-out;
-  position: absolute;
-  z-index: 1;
-}
+  box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.2), 0 4px 20px 0 rgba(71, 71, 71, 0.19); 
+  width:100%;
+   height:auto; 
+  }
 
 
-
-/* #grid-images  {
-  position: relative;
-  top:300px;
-  margin-right: 10px;
-}
-
-
-#grid-images .container .row div  {
-
-  margin-bottom: 40px;
-
-
-}
-#grid-images div a img {
-  opacity:0.8;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
-}
-#grid-images div a img:hover {
-  transition: 0.5s;
-  position: absolute;
-   width:105%;
-   opacity: 1;
-  
-  
-} */
+/*how we strated our company*/
 
 #extrainfo {
-  margin-top:50px;
+  text-align: center;
+  position: relative;
+  margin-top:150px;
 }
-#extrainfo p {
-padding:100px;
-color:#404040;
-}
-@media screen and (max-width:588px){
-div#hero p {
-  line-height: 1.5;
-   padding-top:0;
-    color:white;
-    font-size:20px;
-    z-index:10000;
-    font-weight: 200;
+#extrainfo p:nth-child(1) {
+ text-align: center;
+  font-weight:300; 
+  font-size:3em;
+  margin-bottom:50px;
+  color: rgb(84, 100, 98) ;
   }
-  div#hero p a {
-    padding-top:0;
+  #extrainfo p:nth-child(2) {
+font-size:1.5em;
+color:#666666;
+padding:20px;
+
   }
- nav.navbar-expand-lg a.navbar-brand,nav button.navbar-toggler .navbar-toggler-icon{
-    font-size:2em;
-    font-weight:800;
-    
-  }
-  #showcase {
-    top:0;
-   width:100%;
-    height:900px;
-     background:linear-gradient( rgba(0, 0, 0, 0.692) 100%, rgba(0, 0, 0, 0.747)100%),url('../images/mechanic.jpeg') ;
-    
-  background-size: cover;
-    background-position: center;
-    position: absolute;
-    z-index: -1;
-    opacity:0.9;
+
+@media screen and (max-width:700px){
   
-  }
+.container #hero { 
+  text-align: center;
+  font: size 1.5em;
+  font-weight:300;
+  z-index:1;
+  padding-top:150px;
+  height:100vh;
 }
+.container #hero p {
+  color:white;
+  font-size:1.5em;
+  z-index:1;
+
+}
+#grid-images .container h1 {
+  font-size:1.6em;
+}
+#grid-images {
+  padding-top:100px;
+ }
+#grid-images .container .row .col-xs-12 a img {
+  width:100%;
+   height:auto; 
+}
+#extrainfo {
+  position: relative;
+  margin-top:70px;
+}
+#extrainfo p:nth-child(1) {
+
+  font-weight:300; 
+  font-size:2.5em;
+  margin-bottom:40px;
+  color: rgb(84, 100, 98) ;
+  }
+  #extrainfo p:nth-child(2) {
+    font-size:1.5em;
+    color:#666666;
+   }
+   #extrainfo p:nth-child(2) {
+    font-size:1em;
+    color:#666666;
+    padding:20px;
+    
+      }
+
+ 
+}
+@media screen and (max-width:500px){
+  .container #hero { 
+    text-align: center;
+    font: size 1.5em;
+    font-weight:300;
+    z-index:1;
+    padding-top:90px;
+    height:100vh;
+  }
+  #grid-images .container .row .col-xs-12 a img{
+    box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.2), 0 4px 20px 0 rgba(71, 71, 71, 0.19); 
+    width:100%;
+
+     height:auto;
+ }
+  #grid-images .container h1 {
+    font-size:1em;
+  }
+  #extrainfo {
+    position: relative;
+    margin-top:50px;
+  }
+  #extrainfo p:nth-child(1) {
+
+    font-weight:100; 
+    font-size:1.5em;
+    margin-bottom:40px;
+    color: rgb(84, 100, 98) ;
+    }
+}
+
+/*footer*/
+footer {
+  background-color: black;
+  color:white;
+  height:100px;
+}
+footer div{
+padding-top:50px;
+}
+
 
