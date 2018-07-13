@@ -191,6 +191,69 @@ padding:20px;
       }
 }
 
+/*why us */
+#whyus {
+  margin-top:50px;
+  background:rgb(244, 245, 244);
+}
+#whyus h1 {
+ z-index:1;
+  padding-top:50px;
+  color:hsl(0, 20%, 50%);
+}
+#icons div:nth-child(3){
+  padding-bottom:80px;
+}
+#icons h4 {
+  z-index:1;
+  color:green;
+}
+#icons div.col-xs-12 i {
+  z-index:-1;
+  font-size:48px;
+  color:	#669966;
+  
+}
+#icons p {
+color: #666666;
+font-size:1.3em;
+}
+
+
+/*contact us */
+#contactus  {
+  margin-top:80px;
+  }
+  #contactus .container h3 {
+    color:darkcyan;
+    border-bottom: 2px dotted gray;
+    padding-bottom: 20px;
+  }
+  address{
+    font-size:1.5em;
+    padding-top:20px;
+    color: #666666;
+  }
+  address span ,div address:nth-child(4) span {
+    font-size:1em;
+  }
+  address h4 {
+    margin-bottom:25px;
+    color:red;
+  
+  }
+  #from1 {
+    background-color: #F8F8F8;
+    padding-bottom:60px;
+    font-size:1.5em;
+  }
+  #from1 h4{
+    color:darkcyan;
+  
+    padding:40px 40px 40px 0;;
+  
+  }
+
 /*footer*/
 footer {
   background-color: black;
