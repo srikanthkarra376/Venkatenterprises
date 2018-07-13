@@ -28,8 +28,9 @@ nav ul:hover {
   font-size:16px;
 }
 nav ul li.active {
- border-bottom:2px solid red;
-}
+ transition:2s;
+ border-bottom:3px solid red;
+} 
 #showcase {
   top:0;
  width:100%;
@@ -108,6 +109,7 @@ padding:20px;
   footer div{
   padding-top:50px;
   }
+
 
 @media screen and (max-width:700px){
   
@@ -199,6 +201,25 @@ padding:20px;
       color: rgb(84, 100, 98) ;
       }
 }
+ /*SERVICES PAGE */
+ #services {
+  margin-top:80px;
+ }
+ #services h1 {
+   margin:50px;
+   color:red;
+ }
+ #services div.col-xs-12 p {
+   font-size:1.5em;
+ }
+
+
+ #services div.col-xs-12:nth-child(2), #services div.auto-content {
+   color:#202020;
+   font-size:1.4em;
+  }
+
+
 
 /*WHY US PAGE */
 
@@ -260,8 +281,7 @@ font-size:1.3em;
   #from1 h4{
     color:darkcyan;
     padding:40px 40px 40px 0;;
-  
-  }
+}
 
 
 
