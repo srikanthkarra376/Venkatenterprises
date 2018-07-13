@@ -1,4 +1,4 @@
-
+/*index page */
 .container #hero { 
   text-align: center;
   font-size:2em;
@@ -99,6 +99,15 @@ color:#666666;
 padding:20px;
 
   }
+  /*footer*/
+  footer {
+    background-color: black;
+    color:white;
+    height:100px;
+  }
+  footer div{
+  padding-top:50px;
+  }
 
 @media screen and (max-width:700px){
   
@@ -191,7 +200,8 @@ padding:20px;
       }
 }
 
-/*why us */
+/*WHY US PAGE */
+
 #whyus {
   margin-top:50px;
   background:rgb(244, 245, 244);
@@ -220,7 +230,7 @@ font-size:1.3em;
 }
 
 
-/*contact us */
+/*CONTACT US PAGE */
 #contactus  {
   margin-top:80px;
   }
@@ -249,19 +259,11 @@ font-size:1.3em;
   }
   #from1 h4{
     color:darkcyan;
-  
     padding:40px 40px 40px 0;;
   
   }
 
-/*footer*/
-footer {
-  background-color: black;
-  color:white;
-  height:100px;
-}
-footer div{
-padding-top:50px;
-}
+
+
 
 
