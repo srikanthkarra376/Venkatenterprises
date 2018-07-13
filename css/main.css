@@ -14,11 +14,10 @@
 
 }
 nav {
-  transition: 1s;
+transition: 1s;
 position: sticky;
-  
-  background-color:#ccc;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+background-color:#ccc;
+box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 nav ul li {
   margin-left:30px;
@@ -32,7 +31,7 @@ nav ul li.active {
  border-bottom:3px solid red;
 } 
 #showcase {
-  top:0;
+ top:0;
  width:100%;
   height:100vh;
   background:linear-gradient( rgba(0, 0, 0, 0.692) 100%, rgba(0, 0, 0, 0.747)100%),url('../images/mechanic.jpeg') ;
@@ -79,7 +78,6 @@ height:100vh;
    height:auto; 
   }
 
-
 /*how we strated our company*/
 
 #extrainfo {
@@ -100,8 +98,11 @@ color:#666666;
 padding:20px;
 
   }
+
+
   /*footer*/
-  footer {
+
+footer {
     background-color: black;
     color:white;
     height:100px;
@@ -201,7 +202,9 @@ padding:20px;
       color: rgb(84, 100, 98) ;
       }
 }
+
  /*SERVICES PAGE */
+
  #services {
   margin-top:80px;
  }
@@ -212,13 +215,15 @@ padding:20px;
  #services div.col-xs-12 p {
    font-size:1.5em;
  }
-
-
- #services div.col-xs-12:nth-child(2), #services div.auto-content {
+#services div.col-xs-12:nth-child(2), #services div.auto-content {
    color:#202020;
    font-size:1.4em;
   }
-
+ 
+  #services div.col-xs-12 ul li {
+    color:#1b0e03;
+  }
+ 
 
 
 /*WHY US PAGE */
@@ -246,12 +251,30 @@ padding:20px;
   
 }
 #icons p {
-color: #666666;
+color: #707070;
 font-size:1.3em;
+}
+/*PRICING*/
+#pricing {
+ margin-top:20px;
+}
+#pricing table {
+  width:100%;
+  margin-bottom:40px;
+  margin-top:40px;
+}
+td, th {
+  border: 1px solid #dddddd96;
+  text-align: left;
+  padding: 20px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd54;
 }
 
 
 /*CONTACT US PAGE */
+
 #contactus  {
   margin-top:80px;
   }
