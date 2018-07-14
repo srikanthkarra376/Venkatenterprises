@@ -1,3 +1,5 @@
+
+
 /*index page */
 .container #hero { 
   text-align: center;
@@ -61,19 +63,20 @@ height:100vh;
 
 #grid-images {
   padding:100px;
+ background-color: #f3f3f3; 
  }
  #grid-images .container p {
    text-align:center;
   font-weight:300; 
   font-size:2.5em;
   margin-bottom:40px;
-  color: rgb(84, 100, 98) ;
+  color: rgb(240, 129, 3) ;
  }
 #grid-images .container .row .col-xs-12 {
   padding:20px;
 }
 #grid-images .container .row .col-xs-12 a img{
-  box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.2), 0 4px 20px 0 rgba(71, 71, 71, 0.19); 
+  box-shadow: 0 10px 10px 0 rgba(49, 49, 49, 0.2), 0 4px 20px 0 rgba(71, 71, 71, 0.19); 
   width:100%;
    height:auto; 
   }
@@ -90,11 +93,11 @@ height:100vh;
   font-weight:300; 
   font-size:3em;
   margin-bottom:50px;
-  color: rgb(84, 100, 98) ;
+  color: rgb(247, 137, 12) ;
   }
   #extrainfo p:nth-child(2) {
 font-size:1.5em;
-color:#666666;
+color:#242222;
 padding:20px;
 
   }
@@ -111,6 +114,7 @@ footer {
   padding-top:50px;
   }
 
+/*media screen 700px */
 
 @media screen and (max-width:700px){
   
@@ -128,12 +132,14 @@ footer {
   z-index:1;
 
 }
+#grid-images {
+  padding:10px;
+
+ }
 #grid-images .container h1 {
   font-size:2em;
 }
-#grid-images {
-  padding:10px;
- }
+
 #grid-images .container .row .col-xs-12 a img {
   width:100%;
    height:auto; 
@@ -155,11 +161,11 @@ footer {
     font-weight:300; 
     font-size:1.8em;
     margin-bottom:40px;
-    color: rgb(84, 100, 98) ;
+    color:#242222 ;
     }
 }
 
- 
+/*media screen 500px */
 
 @media screen and (max-width:500px){
   .container #hero { 
@@ -209,8 +215,10 @@ footer {
   margin-top:80px;
  }
  #services h1 {
-   margin:50px;
-   color:red;
+  text-align: center;
+  font-weight:300; 
+  font-size:3em;
+  color: rgb(247, 137, 12) ;
  }
  #services div.col-xs-12 p {
    font-size:1.5em;
@@ -233,16 +241,21 @@ footer {
   background:rgb(244, 245, 244);
 }
 #whyus h1 {
- z-index:1;
-  padding-top:50px;
-  color:hsl(0, 20%, 50%);
+  text-align: center;
+  font-weight:300; 
+  font-size:3em;
+  color: rgb(247, 137, 12);
 }
+
 #icons div:nth-child(3){
   padding-bottom:80px;
 }
 #icons h4 {
   z-index:1;
   color:green;
+  font-weight:300; 
+  font-size:2em;
+  opacity:1;
 }
 #icons div.col-xs-12 i {
   z-index:-1;
@@ -261,17 +274,25 @@ font-size:1.3em;
  margin-top:20px;
 }
 #pricing table {
+  z-index:-1;
   width:100%;
   margin-bottom:40px;
   margin-top:40px;
+  box-shadow: 0 6px 8px 0 rgba(49, 49, 49, 0.2), 0 6px 20px 0 rgba(71, 71, 71, 0.19); 
+}
+#pricing .container h1 {
+  text-align: center;
+    font-weight:300; 
+    font-size:3em;
+    color: rgb(247, 137, 12);
 }
 td, th {
-  border: 1px solid #dddddd96;
+  border: 1px solid #e6e6e696;
   text-align: left;
   padding: 20px;
 }
 tr:nth-child(even) {
-  background-color: #dddddd54;
+  background-color: #c9c6c6d7;
 }
 
 
@@ -281,9 +302,10 @@ tr:nth-child(even) {
   margin-top:80px;
   }
   #contactus .container h3 {
-    color:darkcyan;
-    border-bottom: 2px dotted gray;
-    padding-bottom: 20px;
+    text-align: center;
+    font-weight:300; 
+    font-size:3em;
+    color: rgb(247, 137, 12);
   }
   address{
     font-size:1.5em;
@@ -294,8 +316,11 @@ tr:nth-child(even) {
     font-size:1em;
   }
   address h4 {
-    margin-bottom:25px;
-    color:red;
+    text-align: center;
+    font-weight:300; 
+    font-size:1em;
+    margin-bottom:40px;
+    color: rgb(247, 137, 12);
   
   }
   #from1 {
@@ -304,8 +329,20 @@ tr:nth-child(even) {
     font-size:1.5em;
   }
   #from1 h4{
-    color:darkcyan;
-    padding:40px 40px 40px 0;;
+    padding:40px;
+    text-align: center;
+    font-weight:300; 
+    font-size:1.5em;
+    margin-bottom:40px;
+    color: rgb(247, 137, 12);
+    
+}
+ label {
+  text-align: center;
+  font-weight:300; 
+  font-size:1em;
+  margin-bottom:40px;
+  color: rgb(252, 141, 14);
 }
 
 
