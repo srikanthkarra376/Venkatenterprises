@@ -114,106 +114,14 @@ footer {
   padding-top:50px;
   }
 
-/*media screen 700px */
 
-@media screen and (max-width:700px){
-  
-.container #hero { 
-  text-align: center;
-  font: size 1.5em;
-  font-weight:300;
-  z-index:1;
-  padding-top:150px;
-  height:100vh;
-}
-.container #hero p {
-  color:white;
-  font-size:1.5em;
-  z-index:1;
-
-}
-#grid-images {
-  padding:10px;
-
- }
-#grid-images .container h1 {
-  font-size:2em;
-}
-
-#grid-images .container .row .col-xs-12 a img {
-  width:100%;
-   height:auto; 
-}
-#extrainfo {
-  position: relative;
-  margin-top:70px;
-}
-#extrainfo p:nth-child(1) {
-
-  font-weight:300; 
-  font-size:2.5em;
-  margin-bottom:40px;
-  color: rgb(84, 100, 98) ;
-  }
-  
-   #extrainfo p:nth-child(2) {
-
-    font-weight:300; 
-    font-size:1.8em;
-    margin-bottom:40px;
-    color:#242222 ;
-    }
-}
-
-/*media screen 500px */
-
-@media screen and (max-width:500px){
-  .container #hero { 
-    text-align: center;
-    font: size 1.5em;
-    font-weight:300;
-    z-index:1;
-    padding-top:90px;
-    height:100vh;
-  }
-  #grid-images .container .row .col-xs-12 a img{
-    box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.2), 0 4px 20px 0 rgba(71, 71, 71, 0.19); 
-    width:100%;
-
-     height:auto;
- }
- #grid-images {
-   margin-top:50px;
-  padding:10px;
- }
-  #grid-images .container h1 {
-    font-size:2em;
-  }
-  #extrainfo {
-    position: relative;
-    margin-top:50px;
-  }
-  #extrainfo p:nth-child(1) {
-
-    font-weight:300; 
-    font-size:2em;
-    margin-bottom:40px;
-    color: rgb(84, 100, 98) ;
-    }
-    #extrainfo p:nth-child(2) {
-
-      font-weight:300; 
-      font-size:1.3em;
-      margin-bottom:40px;
-      color: rgb(84, 100, 98) ;
-      }
-}
 
  /*SERVICES PAGE */
 
  #services {
   margin-top:80px;
  }
+ 
  #services h1 {
   text-align: center;
   font-weight:300; 
@@ -221,7 +129,10 @@ footer {
   color: rgb(247, 137, 12) ;
  }
  #services div.col-xs-12 p {
-   font-size:1.5em;
+   font-size:1.2em;
+  
+   /* box-shadow: 0 4px 4px 0 rgba(66, 63, 63, 0.2), 0 4px 20px 0 rgba(71, 71, 71, 0.19);  */
+   
  }
 #services div.col-xs-12:nth-child(2), #services div.auto-content {
    color:#202020;
@@ -301,11 +212,19 @@ tr:nth-child(even) {
 #contactus  {
   margin-top:80px;
   }
+  #contactus div.row {
+    background-color:#ccc;
+    box-shadow: 0 4px 4px 0 rgba(66, 63, 63, 0.2), 0 4px 20px 0 rgba(71, 71, 71, 0.19); 
+  }
+  #contactus div.row .col-xs-12{
+    background-color:rgb(255, 255, 255);
+    
+  }
   #contactus .container h3 {
-    text-align: center;
     font-weight:300; 
-    font-size:3em;
+    font-size:2.5em;
     color: rgb(247, 137, 12);
+    z-index:1;
   }
   address{
     font-size:1.5em;
@@ -316,6 +235,7 @@ tr:nth-child(even) {
     font-size:1em;
   }
   address h4 {
+   
     text-align: center;
     font-weight:300; 
     font-size:1em;
@@ -324,12 +244,14 @@ tr:nth-child(even) {
   
   }
   #from1 {
+    
     background-color: #F8F8F8;
     padding-bottom:60px;
     font-size:1.5em;
   }
   #from1 h4{
-    padding:40px;
+    
+  padding:40px;
     text-align: center;
     font-weight:300; 
     font-size:1.5em;
@@ -345,6 +267,100 @@ tr:nth-child(even) {
   color: rgb(252, 141, 14);
 }
 
+/*media screen 700px */
+
+@media screen and (max-width:700px){
+  
+  .container #hero { 
+    text-align: center;
+    font: size 1.5em;
+    font-weight:300;
+    z-index:1;
+    padding-top:150px;
+    height:100vh;
+  }
+  .container #hero p {
+    color:white;
+    font-size:1.5em;
+    z-index:1;
+  
+  }
+  #grid-images {
+    padding:10px;
+  
+   }
+  #grid-images .container h1 {
+    font-size:2em;
+  }
+  
+  #grid-images .container .row .col-xs-12 a img {
+    width:100%;
+     height:auto; 
+  }
+  #extrainfo {
+    position: relative;
+    margin-top:70px;
+  }
+  #extrainfo p:nth-child(1) {
+  
+    font-weight:300; 
+    font-size:2.5em;
+    margin-bottom:40px;
+    color: rgb(84, 100, 98) ;
+    }
+    
+     #extrainfo p:nth-child(2) {
+  
+      font-weight:300; 
+      font-size:1.8em;
+      margin-bottom:40px;
+      color:#242222 ;
+      }
+  }
+  
+  /*media screen 500px */
+  
+  @media screen and (max-width:500px){
+    .container #hero { 
+      text-align: center;
+      font: size 1.5em;
+      font-weight:300;
+      z-index:1;
+      padding-top:90px;
+      height:100vh;
+    }
+    #grid-images .container .row .col-xs-12 a img{
+      box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.2), 0 4px 20px 0 rgba(71, 71, 71, 0.19); 
+      width:100%;
+  
+       height:auto;
+   }
+   #grid-images {
+     margin-top:50px;
+    padding:10px;
+   }
+    #grid-images .container h1 {
+      font-size:2em;
+    }
+    #extrainfo {
+      position: relative;
+      margin-top:50px;
+    }
+    #extrainfo p:nth-child(1) {
+  
+      font-weight:300; 
+      font-size:2em;
+      margin-bottom:40px;
+      color: rgb(84, 100, 98) ;
+      }
+      #extrainfo p:nth-child(2) {
+  
+        font-weight:300; 
+        font-size:1.3em;
+        margin-bottom:40px;
+        color: rgb(84, 100, 98) ;
+        }
+  }
 
 
 
