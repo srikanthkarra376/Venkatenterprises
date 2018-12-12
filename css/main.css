@@ -1,5 +1,4 @@
 
-
 /*index page */
 .container #hero { 
   text-align: center;
@@ -15,6 +14,17 @@
   z-index:100;
 
 }
+i.fa-facebook {
+  font-size:1.5em;
+  text-align: center;
+  color:#fff;
+}
+i.fa-twitter {
+  font-size:1.5em;
+ text-align: center;
+  color:#fff;
+}
+
 nav {
 transition: 1s;
 position: sticky;
@@ -28,10 +38,22 @@ nav ul:hover {
   transition: 0.5s;
   font-size:16px;
 }
+.navbar-brand{
+padding-left: 50px;
+padding-right: 50px;
+}
 nav ul li.active {
  transition:2s;
  border-bottom:3px solid red;
 } 
+.navbar,.nav-link,.nav-item,.navbar-light {
+
+  color:#fff;
+}
+.bd-navbar {
+  background-color: #563d7c;
+
+}
 #showcase {
  top:0;
  width:100%;
@@ -181,7 +203,10 @@ font-size:1.3em;
 /*PRICING*/
 
 #pricing {
- margin-top:20px;
+
+
+ background: linear-gradient(to top, #678d930a, #6b6b83, #aa4b6b73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
 }
 #pricing table {
   z-index:-1;
@@ -204,12 +229,21 @@ td, th {
 tr:nth-child(even) {
   background-color: #c9c6c6d7;
 }
+/*SPECIAL OFFERS*/
+#special {
 
+  background-color: #ccc;
+margin:0;
+}
+#special h1 {
+  padding:50px;
+}
 
 /*CONTACT US PAGE */
 
 #contactus  {
-  margin-top:80px;
+  margin-top:55px;
+  background:linear-gradient(to right, #b92b27, #1565c0);  
   }
   #contactus div.row {
     background-color:#ccc;
