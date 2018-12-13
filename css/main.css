@@ -248,7 +248,7 @@ font-size:1.3em;
 td, th {
   border: 1px solid #e6e6e696;
   text-align: left;
-  padding: 20px;
+
 }
 tr:nth-child(even) {
   background-color: #c9c6c6d7;
