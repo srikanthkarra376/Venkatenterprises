@@ -9,11 +9,21 @@
   height:100vh;
 }
 .container #hero p {
-  color:white;
+color:rgb(204, 204, 204);
   font-size:1.5em;
   z-index:100;
   mix-blend-mode: overlay;
 
+}
+@media screen and (max-width:700px){
+  .container #hero p {
+    color:rgb(204, 204, 204);
+      font-size:.5em;
+      z-index:100;
+      mix-blend-mode: overlay;
+      line-height: 1;
+    
+    }
 }
 i.fa-facebook {
   font-size:1.5em;
@@ -22,6 +32,11 @@ i.fa-facebook {
 }
 i.fa-twitter {
   font-size:1.5em;
+ text-align: center;
+  color:#fff;
+}
+i.fa-phone {
+  font-size:1.1em;
  text-align: center;
   color:#fff;
 }
@@ -39,10 +54,7 @@ nav ul:hover {
   transition: 0.5s;
   font-size:16px;
 }
-.navbar-brand{
-padding-left: 50px;
-padding-right: 50px;
-}
+
 nav ul li.active {
  transition:2s;
  border-bottom:3px solid red;
@@ -52,7 +64,13 @@ nav ul li.active {
   color:#fff;
 }
 .bd-navbar {
-  background-color: #563d7c;
+ 
+ background: #aa4b6b;  
+background: -webkit-linear-gradient(to left, #3b8d99, #6b6b83, #aa4b6b);  
+background: linear-gradient(to left, #3b8d99, #6b6b83, #aa4b6b); 
+
+  
+  
 
 }
 #showcase {
@@ -129,20 +147,25 @@ padding:20px;
   /*footer*/
 
 footer {
-    background-color: black;
-    color:white;
-    height:100px;
+    background-color: #563d7c;
+  
+    height:80px;
   }
-  footer div{
-  padding-top:50px;
-  }
+ footer a.badge {
+   font-size: 1em;
+   font-weight: 100;
+   margin-top:30px;
+   text-decoration: none;
+   color:white;
+ }
 
 
 
  /*SERVICES PAGE */
 
  #services {
-  margin-top:80px;
+  margin-top:60px;
+  background:#ccc;
  }
  
  #services h1 {
@@ -206,7 +229,7 @@ font-size:1.3em;
 #pricing {
 
 
- background: linear-gradient(to top, #678d930a, #6b6b83, #aa4b6b73); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ background: #fff;
  
 }
 #pricing table {
@@ -233,11 +256,14 @@ tr:nth-child(even) {
 /*SPECIAL OFFERS*/
 #special {
 
-  background-color: #ccc;
-margin:0;
+background-color: #ccc;
+
 }
 #special h1 {
-  padding:50px;
+  padding:40px;
+  font-weight:300; 
+  font-size:3em;
+  color:rgb(247, 137, 12);
 }
 
 /*CONTACT US PAGE */
