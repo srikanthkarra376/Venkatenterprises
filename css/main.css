@@ -1,21 +1,30 @@
 
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+::-webkit-scrollbar {
+  display: none;
+  }
 /*index page */
 .container #hero { 
   text-align: center;
   font-size:2em;
-  font-weight:500;
-  z-index:1;
+  font-weight:bold;
+  z-index:-1;
   padding-top:150px;
   height:100vh;
+  background-color:#1b0e0323;
+  
 }
 .container #hero p {
-color:rgb(204, 204, 204);
+color:#fff;
   font-size:1.5em;
   z-index:100;
   mix-blend-mode: overlay;
 
 }
-@media screen and (max-width:700px){
+@media screen and (max-width: 768px){
   .container #hero p {
     color:rgb(204, 204, 204);
       font-size:.5em;
@@ -24,6 +33,7 @@ color:rgb(204, 204, 204);
       line-height: 1;
     
     }
+    
 }
 i.fa-facebook {
   font-size:1.5em;
@@ -55,101 +65,95 @@ nav ul:hover {
   font-size:16px;
 }
 
-nav ul li.active {
- transition:2s;
- border-bottom:3px solid red;
+nav ul li a.active {
+transition:.6s;
+color:red;
+
+
 } 
 .navbar,.nav-link,.nav-item,.navbar-light {
 
-  color:#fff;
+  color:rgba(255, 255, 255, 0.671);
 }
 .bd-navbar {
- 
- background: #aa4b6b;  
+background: #aa4b6b;  
 background: -webkit-linear-gradient(to left, #3b8d99, #6b6b83, #aa4b6b);  
 background: linear-gradient(to left, #3b8d99, #6b6b83, #aa4b6b); 
 
-  
-  
-
 }
 #showcase {
- top:0;
- width:100%;
+  top:0;
+  width:100%;
   height:100vh;
   background:linear-gradient( rgba(0, 0, 0, 0.692) 100%, rgba(0, 0, 0, 0.747)100%),url('../images/mechanic.jpeg') ;
- background-size: cover;
+  background-size: cover;
   background-position: center;
   position: absolute;
   z-index: -1;
   opacity:0.9;
   transition: 2s;
 }
-
-#showcase1 {
-padding:50px;
- width:100%;
-height:100vh;
-  background:linear-gradient( rgba(0, 0, 0, 0.692) 100%, rgba(0, 0, 0, 0.747)100%),url('../images/panalu.jpg') ;
- background-size: cover;
- background-position:center;
- background-repeat: no-repeat;
-  background-position: center;
-  position: absolute;
-  z-index: -1;
-  opacity:0.9;
-  transition: 2s;
-}
-
-
-#grid-images {
-  padding:100px;
- background-color: #f3f3f3; 
- }
- #grid-images .container p {
-   text-align:center;
-  font-weight:300; 
-  font-size:2.5em;
-  margin-bottom:40px;
-  color: rgb(240, 129, 3) ;
- }
-#grid-images .container .row .col-xs-12 {
-  padding:20px;
-}
-#grid-images .container .row .col-xs-12 a img{
-  box-shadow: 0 10px 10px 0 rgba(49, 49, 49, 0.2), 0 4px 20px 0 rgba(71, 71, 71, 0.19); 
-  width:100%;
-   height:auto; 
-  }
-
-/*how we strated our company*/
-
-#extrainfo {
-  text-align: center;
+#Testimonials {
   position: relative;
-  margin-top:150px;
+  height:100%;
+  width:100%;
+  background-color: #3b8d99;
 }
-#extrainfo p:nth-child(1) {
- text-align: center;
-  font-weight:300; 
-  font-size:3em;
-  margin-bottom:50px;
-  color: rgb(247, 137, 12) ;
-  }
-  #extrainfo p:nth-child(2) {
-font-size:1.5em;
-color:#242222;
-padding:20px;
+#Testimonials .container {
+  padding-top:2em;
+  text-align: center;
+ 
+}
 
-  }
+#Testimonials  h1 {
+  color: #fff;
+  text-align:center;
+  margin:50px auto;
 
+}
+#Testimonials img {
+  border-radius: 50%;
+  margin:0 auto;
+  margin-left:20px;
+  border-bottom: 1px solid #fff;
+}
+#Testimonials p{
+  padding:30px 0;
+  text-align: left;
+  line-height: 1.8;
+  color:#ffffff;
+  font-size: 1.5em;
+
+}
+#Testimonials p::before,#Testimonials p::after{
+  content:'"';
+  font-size: 1.2em;
+  color:red;
+  padding:2px;
+}
+#ourstory {
+  margin:80px 0;
+  background:none;
+}
+#ourstory h1 {
+  color:orange;
+}
+#ourstory video {
+
+  margin:50px 0;
+
+}
+#ourstory p {
+  font-size:1.5em;
+  margin:50px 0;
+  line-height: 2;
+}
 
   /*footer*/
 
 footer {
     background-color: #563d7c;
-  
-    height:80px;
+     height:80px;
   }
  footer a.badge {
    font-size: 1em;
@@ -159,34 +163,32 @@ footer {
    color:white;
  }
 
-
-
  /*SERVICES PAGE */
 
  #services {
-  margin-top:60px;
-  background:#ccc;
+  margin-top:80px;
+  background:rgba(255, 255, 255, 0.479);
+  
  }
  
  #services h1 {
-  text-align: center;
-  font-weight:300; 
-  font-size:3em;
-  color: rgb(247, 137, 12) ;
+  text-align:left;
+  margin-top:20px;
+  font-size:2em;
+  color: #6b6b83 ;
  }
  #services div.col-xs-12 p {
-   font-size:1.2em;
-  
-   /* box-shadow: 0 4px 4px 0 rgba(66, 63, 63, 0.2), 0 4px 20px 0 rgba(71, 71, 71, 0.19);  */
-   
+   font-size:1.5em;
  }
 #services div.col-xs-12:nth-child(2), #services div.auto-content {
    color:#202020;
-   font-size:1.4em;
+   font-size:1em;
+   line-height: 1.5;
   }
  
   #services div.col-xs-12 ul li {
     color:#1b0e03;
+    list-style: none;
   }
 
 
@@ -194,7 +196,7 @@ footer {
 
 #whyus {
   margin-top:50px;
-  background:rgb(244, 245, 244);
+  background:#fff;
 }
 #whyus h1 {
   text-align: center;
@@ -227,10 +229,8 @@ font-size:1.3em;
 /*PRICING*/
 
 #pricing {
-
-
  background: #fff;
- 
+
 }
 #pricing table {
   z-index:-1;
@@ -268,23 +268,27 @@ background-color: #ccc;
 
 /*CONTACT US PAGE */
 
-#contactus  {
-  margin-top:55px;
-  background:linear-gradient(to right, #b92b27, #1565c0);  
-  }
+
   #contactus div.row {
     background-color:#ccc;
-    box-shadow: 0 4px 4px 0 rgba(66, 63, 63, 0.2), 0 4px 20px 0 rgba(71, 71, 71, 0.19); 
+  
   }
   #contactus div.row .col-xs-12{
     background-color:rgb(255, 255, 255);
     
   }
-  #contactus .container h3 {
-    font-weight:300; 
-    font-size:2.5em;
-    color: rgb(247, 137, 12);
-    z-index:1;
+  #contactus h3{
+    font-size:3.8em;
+    text-align: left;
+    height:280px;
+    width:100%;
+    padding:1.9em;
+    background: #009FFF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ec2F4B, rgb(3, 17, 26));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ec2F4B, rgba(42, 127, 180, 0.966)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:#fff;
+    margin-bottom:50px;
+   
   }
   address{
     font-size:1.5em;
@@ -295,8 +299,7 @@ background-color: #ccc;
     font-size:1em;
   }
   address h4 {
-   
-    text-align: center;
+ 
     font-weight:300; 
     font-size:1em;
     margin-bottom:40px;
@@ -304,32 +307,33 @@ background-color: #ccc;
   
   }
   #from1 {
-    
+
     background-color: #F8F8F8;
     padding-bottom:60px;
     font-size:1.5em;
   }
   #from1 h4{
     
-  padding:40px;
-    text-align: center;
+    padding:40px;
+    text-align: left;
     font-weight:300; 
     font-size:1.5em;
     margin-bottom:40px;
     color: rgb(247, 137, 12);
     
 }
- label {
-  text-align: center;
-  font-weight:300; 
-  font-size:1em;
-  margin-bottom:40px;
-  color: rgb(252, 141, 14);
+.form-group label {
+  text-transform: normal;
 }
+#from1 form .form-group{
+  width:75%;
+  margin:0 auto;
+}
+
 
 /*media screen 700px */
 
-@media screen and (max-width:700px){
+@media screen and (max-width:768px){
   
   .container #hero { 
     text-align: center;
@@ -376,6 +380,17 @@ background-color: #ccc;
       margin-bottom:40px;
       color:#242222 ;
       }
+      #contactus h3{
+      text-align:center;
+       font-weight: lighter;
+        font-size: 3em;
+        color: #fff;
+        z-index: 1;
+        height: 300px;
+        width: 100%;
+        background-color: #6c2097;
+         
+        }
   }
   
   /*media screen 500px */
@@ -422,15 +437,34 @@ background-color: #ccc;
         }
   }
 
-  .form-group label {
-    text-transform: uppercase;
+  /* Book sevice */
+  #bookservice{
+    margin:100px auto;
   }
-  #alertBox {
+  #bookservice .bg {
+    font-size:3.8em;
+    text-align: left;
+    height:300px;
+    width:100%;
+    padding:1.5em;
+    background: #009FFF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    margin-top:-50px;
+    color:#fff;
+    margin-bottom:50px;
+  }
+
+  #bookservice .form-group label {
+    text-transform: normal;
+  }
+   #alertBox {
     position: absolute;
     width:50%;
     margin-left:100px;
   }
-  .form-control:focus {
+  #bookservice .form-control:focus {
     box-shadow: none;
     border-color: rgb(11, 34, 245);
     background: #5c5b5b11;

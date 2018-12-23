@@ -56,74 +56,79 @@
          </nav>
   </header>
 <!--Booking Form-->
-<div class="container ">
 
-      <div class="m-5 p-5">
-           <div class="form-group row">
-               <label for="fullname" class="col-2 col-form-label"> Full Name</label>
-               <div class="col-8">
-                 <input class="form-control clearInput" type="text" required  id="fullname">
-                 <small class="text-muted">Ex: Venkat Ramana</small>
-                </div>
-             </div>
-            
-             <div class="form-group row">
-               <label for="email" class="col-2 col-form-label">Email</label>
-               <div class="col-8">
-                 <input class="form-control clearInput" type="email" placeholder=""  id="email" required>
-                 <small class="text-muted">Ex: venkatenterprises@gmail.com</small>
-               </div>
-             </div>
-            
-             <div class="form-group row">
-               <label for="telephone" class="col-2 col-form-label">Telephone</label>
-               <div class="col-8">
-                 <input class="form-control clearInput" type="tel"  id="telephone" required >
-                 <small class="text-muted">Ex: 9848485016</small>
-               </div>
-             </div>
-            
-            
-             <div class="form-group row">
-               <label for="vechilenumber" class="col-2 col-form-label"> Vechile Number</label>
-               <div class="col-8">
-                 <input class="form-control clearInput" type="text" placeholder="" id="vechilenumber" required >
-                 <small class="text-muted">Ex: AMD 652 DF</small>
-               </div>
-             </div>
-             <div class="form-group row">
-               <label for="dateofservice" class="col-2 col-form-label">Date of Service</label>
-               <div class="col-8">
-                 <input class="form-control clearInput" type="text" id="dateofservice"required >
-                 <small class="text-muted">Ex: 2019-08-19</small>
-               </div>
-             </div>
-             <div class="form-group row">
-               <label for="dateofdeliver" class="col-2 col-form-label">Date of Deliver</label>
-               <div class="col-8">
-                 <input class="form-control clearInput" type="text"  id="dateofdeliver" required >
-                 <small class="text-muted">Ex: 2019-08-10</small>
-               </div>
-             </div>
-             <div class="form-group row">
-                 <label for="Addressline" class="col-2 col-form-label"> Addressline1</label>
-                 <div class="col-8">
-                   <input class="form-control clearInput" type="text" placeholder="" id="Addressline" required >
-                   <small class="text-muted">Ex: 2-10-365,karimnagar,Telangana,505469</small>
-                 </div>
-               </div>
-              
-                 <div class="form-group row">
-                     <label for="submitbtn" class="col-2 col-form-label"> </label>
-                     <div class="col-8">
-                         <button class="btn btn-outline-info" id="submitbtn" onclick="BookService()"   type="submit">Book</button>
-                     </div>
-                   </div>
-                   <div id="alertBox" class="alert alert-success" style="display:none;position:absolute" role="alert">
-                       <strong>Congratulations !!! Your order has taken</strong>
-     </div>                </div>
-
+<section id="bookservice">
+    <section class="bg">
+      Book a service ! get all offers now
+      </section>
+  <div class="container">
+    <div class="form-group row ">
+        <label for="fullname" class="col-lg-2 col-sm-12 col-form-label text-left"> Full Name</label>
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <input class="form-control clearInput" type="text" required  id="fullname">
+          <small class="text-muted">Ex: Venkat Ramana</small>
+         </div>
+      </div>
+     
+      <div class="form-group row">
+        <label for="email" class="col-lg-2 col-sm-12 col-form-label text-left">Email</label>
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <input class="form-control clearInput" type="email"   id="email" required>
+          <small class="text-muted">Ex: venkatenterprises@gmail.com</small>
+        </div>
+      </div>
+     
+      <div class="form-group row">
+        <label for="telephone" class="col-lg-2 col-sm-12 col-form-label text-left">Telephone</label>
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <input class="form-control clearInput" type="tel"  id="telephone" required >
+          <small class="text-muted">Ex: 9848485016</small>
+        </div>
+      </div>
+     
+     
+      <div class="form-group row">
+        <label for="vechilenumber" class="col-lg-2 col-sm-12 col-form-label text-left "> Vechile Number</label>
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <input class="form-control clearInput" type="text" placeholder="" id="vechilenumber" required >
+          <small class="text-muted">Ex: AMD 652 DF</small>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="dateofservice" class="col-lg-2 col-sm-12 col-form-label text-left">Date of Service</label>
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <input class="form-control clearInput" type="text" id="dateofservice"required >
+          <small class="text-muted">Ex: 2019-08-19</small>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="dateofdeliver" class="col-lg-2 col-sm-12 col-form-label text-left">Date of Deliver</label>
+        <div class="col-lg-8 col-md-8 col-sm-12">
+          <input class="form-control clearInput" type="text"  id="dateofdeliver" required >
+          <small class="text-muted">Ex: 2019-08-10</small>
+        </div>
+      </div>
+      <div class="form-group row">
+          <label for="Addressline" class="col-lg-2 col-sm-12 col-form-label text-left"> Addressline1</label>
+          <div class="col-lg-8 col-md-8 col-sm-12">
+            <input class="form-control clearInput" type="text" placeholder="" id="Addressline" required >
+            <small class="text-muted">Ex: 2-10-365,karimnagar,Telangana,505469</small>
+          </div>
+        </div>
+       
+          <div class="form-group row">
+              <label for="submitbtn" class="col-lg-2 col-sm-12 col-form-label text-left"> </label>
+              <div class="col-lg-8 col-md-8 col-sm-12">
+                  <button class="btn btn-outline-info" id="submitbtn" onclick="BookService()"   type="submit">Book</button>
+              </div>
+            </div>
+            <div id="alertBox" class="alert alert-success" style="display:none;position:absolute" role="alert">
+                <strong>Congratulations !!! Your order has taken</strong>
+</div>           
 </div>
+</section>
+
+
 
 <!--Footer-->
 <footer>
