@@ -8,20 +8,19 @@ body {
   }
 /*index page */
 .container #hero { 
-  text-align: center;
-  font-size:2em;
-  font-weight:bold;
+  text-align: left;
+  font-size:1.5em;
+  font-weight:500;
   z-index:-1;
   padding-top:150px;
   height:100vh;
-  background-color:#1b0e0323;
+ 
   
 }
 .container #hero p {
-color:#fff;
-  font-size:1.5em;
-  z-index:100;
-  mix-blend-mode: overlay;
+  color:#fff;
+  font-size:2.8em;
+
 
 }
 @media screen and (max-width: 768px){
@@ -82,7 +81,7 @@ background: linear-gradient(to left, #3b8d99, #6b6b83, #aa4b6b);
 
 }
 #showcase {
-  top:0;
+
   width:100%;
   height:100vh;
   background:linear-gradient( rgba(0, 0, 0, 0.692) 100%, rgba(0, 0, 0, 0.747)100%),url('../images/mechanic.jpeg') ;
@@ -283,9 +282,9 @@ background-color: #ccc;
     height:280px;
     width:100%;
     padding:1.9em;
-    background: #009FFF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ec2F4B, rgb(3, 17, 26));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ec2F4B, rgba(42, 127, 180, 0.966)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #009FFF;  
+    background: -webkit-linear-gradient(to right, #ec2F4B, rgb(3, 17, 26));  
+    background: linear-gradient(to right, #ec2F4B, rgba(42, 127, 180, 0.966)); 
     color:#fff;
     margin-bottom:50px;
    
@@ -349,37 +348,7 @@ background-color: #ccc;
     z-index:1;
   
   }
-  #grid-images {
-    padding:10px;
-  
-   }
-  #grid-images .container h1 {
-    font-size:2em;
-  }
-  
-  #grid-images .container .row .col-xs-12 a img {
-    width:100%;
-     height:auto; 
-  }
-  #extrainfo {
-    position: relative;
-    margin-top:70px;
-  }
-  #extrainfo p:nth-child(1) {
-  
-    font-weight:300; 
-    font-size:2.5em;
-    margin-bottom:40px;
-    color: rgb(84, 100, 98) ;
-    }
-    
-     #extrainfo p:nth-child(2) {
-  
-      font-weight:300; 
-      font-size:1.8em;
-      margin-bottom:40px;
-      color:#242222 ;
-      }
+ 
       #contactus h3{
       text-align:center;
        font-weight: lighter;
@@ -404,37 +373,7 @@ background-color: #ccc;
       padding-top:90px;
       height:100vh;
     }
-    #grid-images .container .row .col-xs-12 a img{
-      box-shadow: 0 4px 8px 0 rgba(49, 49, 49, 0.2), 0 4px 20px 0 rgba(71, 71, 71, 0.19); 
-      width:100%;
-  
-       height:auto;
-   }
-   #grid-images {
-     margin-top:50px;
-    padding:10px;
-   }
-    #grid-images .container h1 {
-      font-size:2em;
-    }
-    #extrainfo {
-      position: relative;
-      margin-top:50px;
-    }
-    #extrainfo p:nth-child(1) {
-  
-      font-weight:300; 
-      font-size:2em;
-      margin-bottom:40px;
-      color: rgb(84, 100, 98) ;
-      }
-      #extrainfo p:nth-child(2) {
-  
-        font-weight:300; 
-        font-size:1.3em;
-        margin-bottom:40px;
-        color: rgb(84, 100, 98) ;
-        }
+    
   }
 
   /* Book sevice */
@@ -447,9 +386,9 @@ background-color: #ccc;
     height:300px;
     width:100%;
     padding:1.5em;
-    background: #009FFF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #009FFF;  
+    background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);  
+    background: linear-gradient(to right, #ec2F4B, #009FFF); 
     ;
     margin-top:-50px;
     color:#fff;
@@ -472,7 +411,3 @@ background-color: #ccc;
     transition:0.5s;
     font-weight:500;
   }
-
-
-
-
